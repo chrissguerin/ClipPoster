@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipPoster.Core", "ClipPoster\ClipPoster.Core.csproj", "{BC71B459-FA37-451E-A27C-CA26F375099C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClipPoster.Core", "ClipPoster\ClipPoster.Core.csproj", "{BC71B459-FA37-451E-A27C-CA26F375099C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipPoster.Configurations", "ClipPoster.Configurations\ClipPoster.Configurations.csproj", "{FE136C25-B2AC-40CE-B1EB-BEF69049ED7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipPoster.DataReader", "ClipPoster.DataReader\ClipPoster.DataReader.csproj", "{16FFE3CC-DD50-43EB-941D-85D364C446BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipPoster.Common", "ClipPoster.Common\ClipPoster.Common.csproj", "{15298574-27F9-436A-A51B-3471CDB189AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipPoster.Application", "ClipPoster.Application\ClipPoster.Application.csproj", "{DA82D231-699E-4CFE-92E2-F8BD3F865F3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{BC71B459-FA37-451E-A27C-CA26F375099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC71B459-FA37-451E-A27C-CA26F375099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC71B459-FA37-451E-A27C-CA26F375099C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE136C25-B2AC-40CE-B1EB-BEF69049ED7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE136C25-B2AC-40CE-B1EB-BEF69049ED7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE136C25-B2AC-40CE-B1EB-BEF69049ED7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE136C25-B2AC-40CE-B1EB-BEF69049ED7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FFE3CC-DD50-43EB-941D-85D364C446BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FFE3CC-DD50-43EB-941D-85D364C446BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FFE3CC-DD50-43EB-941D-85D364C446BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FFE3CC-DD50-43EB-941D-85D364C446BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15298574-27F9-436A-A51B-3471CDB189AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15298574-27F9-436A-A51B-3471CDB189AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15298574-27F9-436A-A51B-3471CDB189AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15298574-27F9-436A-A51B-3471CDB189AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA82D231-699E-4CFE-92E2-F8BD3F865F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA82D231-699E-4CFE-92E2-F8BD3F865F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA82D231-699E-4CFE-92E2-F8BD3F865F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA82D231-699E-4CFE-92E2-F8BD3F865F3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
